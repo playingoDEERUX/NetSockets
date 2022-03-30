@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="enet\callbacks.c">
+      <Filter>Source\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\compress.c">
+      <Filter>Source\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\list.c">
+      <Filter>Source\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\host.c">
+      <Filter>Source\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\packet.c">
+      <Filter>Source\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\peer.c">
+      <Filter>Source\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\protocol.c">
+      <Filter>Source\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\unix.c">
+      <Filter>Source\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\win32.c">
+      <Filter>Source\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSocket.ixx">
+      <Filter>Modules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\enet\callbacks.h">
+      <Filter>Header\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\enet.h">
+      <Filter>Header\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\list.h">
+      <Filter>Header\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\protocol.h">
+      <Filter>Header\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\time.h">
+      <Filter>Header\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\types.h">
+      <Filter>Header\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\unix.h">
+      <Filter>Header\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\utility.h">
+      <Filter>Header\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\win32.h">
+      <Filter>Header\enet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{0c7c3a65-8277-449a-afb0-369a1c531c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{1e5afa09-f6c5-43cb-8b7f-a358310a5a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\enet">
+      <UniqueIdentifier>{47850a71-5768-421a-a453-fe9901101389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{cd49dbc7-9855-434b-b28c-b79f6ef4ae66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\enet">
+      <UniqueIdentifier>{920532be-0037-444d-bd1e-8a89349fdcb9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
