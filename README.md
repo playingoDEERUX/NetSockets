@@ -1,7 +1,7 @@
 # NetSockets
 
 A fast and clean, universal C++20 wrapper for cross-platform sockets.
-This wrapper uses ENet by lsalzman (https://github.com/lsalzman/enet) for cross-platform socket management.
+This wrapper uses ENet by lsalzman (https://github.com/lsalzman/enet) solely for cross-platform socket management.
 
 Usage example is in NetSockets/Main.cpp
 The actual wrapper module itself is located in NetSockets/NetSocket.ixx
