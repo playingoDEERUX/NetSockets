@@ -2,6 +2,7 @@
 
 A fast and clean, universal C++20 wrapper for cross-platform sockets.
 This wrapper uses ENet by lsalzman (https://github.com/lsalzman/enet) solely for cross-platform socket management.
+
 (The ENet protocol itself is not employed, neither is any ENet code beyond the internal socket API, or helper functions leveraged)
 
 Usage example is in NetSockets/Main.cpp
