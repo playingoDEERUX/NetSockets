@@ -73,19 +73,19 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\wizarduser\source\repos\NetSockets\NetSockets\include;$(IncludePath)</IncludePath>
+    <IncludePath>.\NetSockets\include\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\wizarduser\source\repos\NetSockets\NetSockets\include;$(IncludePath)</IncludePath>
+    <IncludePath>.\NetSockets\include\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\wizarduser\source\repos\NetSockets\NetSockets\include;$(IncludePath)</IncludePath>
+    <IncludePath>.\NetSockets\include\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\wizarduser\source\repos\NetSockets\NetSockets\include;$(IncludePath)</IncludePath>
+    <IncludePath>.\NetSockets\include\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
