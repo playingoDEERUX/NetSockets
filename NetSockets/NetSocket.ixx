@@ -1,7 +1,8 @@
 #include <enet/enet.h>
 import <vector>;
 import <string>;
-using namespace std;
+using std::string;
+using std::vector;
 
 static bool g_bInitialized = false;
 export module NetSocket;
