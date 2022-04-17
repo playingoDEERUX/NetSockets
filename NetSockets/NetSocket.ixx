@@ -68,7 +68,7 @@ public:
 			if (read <= 0)
 			{
 				if (read == 0)
-					Kill();
+				      Kill();
 				
 				return -1;
 			}
