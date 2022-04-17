@@ -65,12 +65,11 @@ public:
 		while (len > 0)
 		{
 			int read = enet_socket_receive(m_Socket, NULL, &buffer, 1);
-			if (read < 0)
-				return -1;
-
-			if (read == 0)
+			if (read <= 0)
 			{
-				Kill();
+				if (read == 0)
+					Kill();
+				
 				return -1;
 			}
 
